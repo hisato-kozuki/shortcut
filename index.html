@@ -22,7 +22,7 @@
 
             let url = localStorage.getItem("url");
             let form = document.getElementById("form");
-            if(url != undefined);
+            if(url != undefined)location.replace(url);
             else{
                 form.addEventListener("submit", event => {
                     event.preventDefault();
